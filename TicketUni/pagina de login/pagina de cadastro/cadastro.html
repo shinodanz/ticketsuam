@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - TicketSuam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Cadastro - TicketSuam</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+      </div>
+      
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha">       
+      </div>
+      
+      <div class="form-group">
+        <label for="confirmarSenha">Confirme Sua Senha</label>
+        <input type="password" id="confirmarSenha" placeholder="Confirme Sua Senha">       
+      </div>
+    
+      <button class="login-btn" type="submit">Cadastrar</button>
+      <div class="error-msg" id="errorMsg"></div>
+      <div id="mensagemSenha" class="mensagem-senha"></div>
+    </form>
+  </div>
+
+  <footer>
+    <img src="ts.pn.png" alt="logo do site" class="logo-footer">
+    <p>Chat Ao Vivo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
